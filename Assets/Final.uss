@@ -1,0 +1,94 @@
+.boton:hover {
+    width: 25%;
+    height: 70%;
+    -unity-font-definition: resource('Jura/Jura-SemiBold');
+    -unity-font-style: bold;
+    background-image: resource('selected');
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(255, 255, 255);
+    scale: 1 1;
+}
+
+.boton {
+    width: 21%;
+    height: 60%;
+    -unity-font-definition: resource('Jura/Jura-SemiBold');
+    -unity-font-style: bold;
+    background-image: resource('unselect');
+    scale: 0.8 0.8;
+    -unity-text-align: upper-left;
+    margin-top: 8px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    margin-left: 8px;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+}
+
+.eye:hover {
+    width: 33%;
+    height: 100%;
+    background-image: resource('eyeselect');
+    scale: 1 0.8;
+}
+
+.eye {
+    width: 33%;
+    height: 100%;
+    background-image: resource('eye');
+    scale: 1 1.1;
+}
+
+.icon:hover {
+    background-image: resource('iconazul');
+    color: rgb(255, 255, 255);
+    -unity-font-definition: resource('Jura/Jura-SemiBold');
+}
+
+.icon {
+    background-image: resource('unselect');
+    -unity-font-definition: resource('Jura/Jura-SemiBold');
+    -unity-font-style: bold;
+    color: rgb(0, 0, 0);
+}
+
+.obj {
+    width: 50%;
+    height: 25%;
+    background-color: rgba(85, 31, 31, 0);
+    background-image: none;
+}
+
+.lock {
+    scale: 0.5 0.5;
+    background-image: resource('unlock');
+}
+
+.lock:hover {
+    scale: 0.5 0.5;
+    background-image: resource('lock');
+}
+
+#unity-text-input {
+    background-image: resource('textbackground');
+    -unity-font-style: bold;
+    -unity-font-definition: resource('Jura/Jura-SemiBold');
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    -unity-text-align: upper-left;
+    white-space: normal;
+}
+
+#unity-low-button {
+    background-image: url("project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=-4528830608231651361&guid=a2fa5f97db7b597468f3adceeff603ea&type=3#arrow-up@2x");
+    -unity-background-image-tint-color: rgb(0, 0, 0);
+    background-color: rgb(22, 153, 255);
+}
+
+#unity-high-button {
+    background-color: rgb(0, 91, 255);
+    background-image: url("project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=-1304905567622442630&guid=a2fa5f97db7b597468f3adceeff603ea&type=3#arrow-down@2x");
+    -unity-background-image-tint-color: rgb(0, 0, 0);
+}

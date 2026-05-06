@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 19003, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: cuatro-colores
+  m_EditorClassIdentifier: 
+  colorMode: 3
+  topLeft: {r: 0.3105447, g: 0.87547165, b: 0.33021685, a: 1}
+  topRight: {r: 0.8679245, g: 0.57127297, b: 0.12773235, a: 1}
+  bottomLeft: {r: 0.0679245, g: 0.1896899, b: 0.5999999, a: 1}
+  bottomRight: {r: 0.67003727, g: 0.12021361, b: 0.7584905, a: 1}

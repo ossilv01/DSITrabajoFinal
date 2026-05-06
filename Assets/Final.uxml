@@ -1,0 +1,147 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Final.uss?fileID=7433441132597879392&amp;guid=790dd0bd579120e4e8e6bbb345022759&amp;type=3#Final" />
+    <engine:VisualElement name="Contenedor" style="flex-grow: 1; background-image: resource(&apos;wallpaper&apos;); width: auto; height: auto;">
+        <engine:VisualElement name="Pestanyas" style="flex-grow: 1; width: 100%; height: 15%; flex-direction: row; position: absolute;">
+            <engine:VisualElement name="Estado" class="boton" style="flex-grow: 1;">
+                <engine:Label text="ESTADO" style="-unity-text-align: middle-center; height: 80%;" />
+            </engine:VisualElement>
+            <engine:VisualElement name="Inventario" class="boton" style="flex-grow: 1;">
+                <engine:Label text="INVENTARIO" style="-unity-text-align: middle-center; height: 80%;" />
+            </engine:VisualElement>
+            <engine:VisualElement name="Notas" class="boton" style="flex-grow: 1; display: flex;">
+                <engine:Label text="NOTAS" style="-unity-text-align: middle-center; height: 80%;" />
+            </engine:VisualElement>
+            <engine:VisualElement name="Decisiones" class="boton" style="flex-grow: 1;">
+                <engine:Label text="DECISIONES" style="-unity-text-align: middle-center; height: 80%;" />
+            </engine:VisualElement>
+        </engine:VisualElement>
+        <engine:VisualElement name="Contenido" style="flex-grow: 1; width: 94%; height: 80%; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 1px; padding-right: 1px; padding-bottom: 1px; padding-left: 1px; background-image: resource(&apos;fondo&apos;); -unity-background-scale-mode: stretch-to-fill; position: absolute; top: 17%; left: 23px;">
+            <engine:VisualElement name="Estado" style="flex-grow: 1; position: absolute; width: 100%; height: 100%; flex-direction: row; display: flex;">
+                <engine:VisualElement name="Connor" style="flex-grow: 1; background-image: none; width: 33%; height: 100%; border-left-color: rgb(18, 81, 159); border-right-color: rgb(18, 81, 159); border-top-color: rgb(18, 81, 159); border-bottom-color: rgb(18, 81, 159); border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-top-left-radius: 2px; border-top-right-radius: 2px; border-bottom-right-radius: 2px; border-bottom-left-radius: 2px;">
+                    <engine:VisualElement name="Nombre" style="flex-grow: 1; width: 100%; height: 10%; flex-direction: row;">
+                        <engine:VisualElement name="Eye" class="eye" style="flex-grow: 1;" />
+                        <engine:Label text="CONNOR" name="Name" style="width: 77%; -unity-font-definition: resource(&apos;Jura/Jura-SemiBold&apos;); -unity-font-style: bold; align-self: center;" />
+                    </engine:VisualElement>
+                    <engine:VisualElement name="Icono" style="flex-grow: 1; width: 100%; height: 50%; background-image: resource(&apos;connor&apos;); -unity-slice-left: 0; -unity-background-scale-mode: scale-to-fit;" />
+                    <engine:VisualElement name="Obediencia" style="flex-grow: 1; height: 20%; width: 100%; flex-direction: row; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; align-self: center; justify-content: flex-start;">
+                        <engine:VisualElement name="icon" style="flex-grow: 1; -unity-text-align: middle-center; justify-content: center; background-image: resource(&apos;triagnle&apos;); width: 5%; height: 30%; top: 0; align-self: center; align-items: stretch;" />
+                        <engine:Label text="OBEDIENCIA" name="Obe" style="-unity-text-align: middle-center; -unity-font-style: bold; width: 77px; -unity-font-definition: resource(&apos;Jura/Jura-SemiBold&apos;); font-size: 11px;" />
+                        <Obediencia valor="4" name="Obediencia" style="align-items: center; justify-content: center; flex-direction: row; align-self: auto; width: auto; height: auto; top: auto;" />
+                    </engine:VisualElement>
+                    <engine:VisualElement name="Corrupcion" style="flex-grow: 1; height: 20%; width: 100%; flex-direction: row;">
+                        <engine:VisualElement name="icon" style="flex-grow: 1; -unity-text-align: middle-center; justify-content: center; background-image: resource(&apos;triagnle&apos;); width: 5%; height: 30%; top: 0; align-self: center;" />
+                        <engine:Label text="CORRUPCION" name="Cor" style="-unity-text-align: middle-left; -unity-font-style: bold; width: 77px; -unity-font-definition: resource(&apos;Jura/Jura-SemiBold&apos;); font-size: 11px;" />
+                        <Corrupcion valor="0" style="flex-direction: row; width: auto; height: auto; top: auto; align-items: auto; align-self: center;" />
+                    </engine:VisualElement>
+                </engine:VisualElement>
+                <engine:VisualElement name="Kara" style="flex-grow: 1; width: 33%; height: 100%; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-left-color: rgb(75, 125, 186); border-right-color: rgb(75, 125, 186); border-top-color: rgb(75, 125, 186); border-bottom-color: rgb(75, 125, 186);">
+                    <engine:VisualElement name="Nombre" style="flex-grow: 1; width: 100%; height: 10%; flex-direction: row;">
+                        <engine:VisualElement name="Eye2" class="eye" style="flex-grow: 1;" />
+                        <engine:Label text="KARA" name="Name" style="width: 77%; -unity-font-definition: resource(&apos;Jura/Jura-SemiBold&apos;); -unity-font-style: bold; align-self: center;" />
+                    </engine:VisualElement>
+                    <engine:VisualElement name="Icono" style="flex-grow: 1; width: 100%; height: 50%; background-image: resource(&apos;kara&apos;); -unity-slice-left: 0; -unity-background-scale-mode: scale-to-fit;" />
+                    <engine:VisualElement name="Obediencia" style="flex-grow: 1; height: 20%; width: 100%; flex-direction: row; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0;">
+                        <engine:VisualElement name="icon" style="flex-grow: 1; -unity-text-align: middle-center; justify-content: center; background-image: resource(&apos;triagnle&apos;); width: 5%; height: 30%; top: 0; align-self: center; align-items: stretch;" />
+                        <engine:Label text="OBEDIENCIA" name="Obe1" style="-unity-text-align: middle-left; -unity-font-style: bold; width: 77px; -unity-font-definition: resource(&apos;Jura/Jura-SemiBold&apos;); font-size: 11px;" />
+                        <Obediencia valor="2" name="Obediencia" style="align-items: flex-end; justify-content: space-around; flex-direction: row; align-self: center; width: auto; height: auto; top: auto;" />
+                    </engine:VisualElement>
+                    <engine:VisualElement name="Corrupcion" style="flex-grow: 1; height: 20%; width: 100%; flex-direction: row;">
+                        <engine:VisualElement name="Icon" style="flex-grow: 1; -unity-text-align: middle-center; justify-content: center; background-image: resource(&apos;triagnle&apos;); width: 5%; height: 30%; top: 0; align-self: center;" />
+                        <engine:Label text="CORRUPCION" name="Cor1" style="-unity-text-align: middle-left; -unity-font-style: bold; width: 77px; -unity-font-definition: resource(&apos;Jura/Jura-SemiBold&apos;); font-size: 11px;" />
+                        <Corrupcion valor="2" style="flex-direction: row; width: auto; height: auto; top: auto; align-items: auto; align-self: center;" />
+                    </engine:VisualElement>
+                </engine:VisualElement>
+                <engine:VisualElement name="Marcus" style="flex-grow: 1; width: 33%; height: 100%; border-left-color: rgb(86, 150, 229); border-right-color: rgb(86, 150, 229); border-top-color: rgb(86, 150, 229); border-bottom-color: rgb(86, 150, 229); border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px;">
+                    <engine:VisualElement name="Nombre" style="flex-grow: 1; width: 100%; height: 10%; flex-direction: row;">
+                        <engine:VisualElement name="Eye3" class="eye" style="flex-grow: 1; align-self: center;" />
+                        <engine:Label text="MARCUS" name="Name" style="width: 77%; -unity-font-definition: resource(&apos;Jura/Jura-SemiBold&apos;); -unity-font-style: bold; align-self: center;" />
+                    </engine:VisualElement>
+                    <engine:VisualElement name="Icono" style="flex-grow: 1; width: 100%; height: 50%; background-image: resource(&apos;ma&apos;); -unity-slice-left: 0; -unity-background-scale-mode: scale-to-fit;" />
+                    <engine:VisualElement name="Obediencia" style="flex-grow: 1; height: 20%; width: 100%; flex-direction: row;">
+                        <engine:VisualElement name="Icon" style="flex-grow: 1; -unity-text-align: middle-center; justify-content: center; background-image: resource(&apos;triagnle&apos;); width: 5%; height: 30%; top: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; margin-top: 6px; margin-right: 6px; margin-bottom: 6px; margin-left: 6px; align-self: center;" />
+                        <engine:Label text="OBEDIENCIA" name="Obe2" style="-unity-text-align: middle-left; -unity-font-style: bold; width: 77px; -unity-font-definition: resource(&apos;Jura/Jura-SemiBold&apos;); font-size: 11px;" />
+                        <Obediencia valor="0" name="Obediencia" style="align-items: flex-end; justify-content: center; flex-direction: row; align-self: center; width: auto; height: auto; top: auto;" />
+                    </engine:VisualElement>
+                    <engine:VisualElement name="Corrupcion" style="flex-grow: 1; height: 20%; width: 100%; flex-direction: row;">
+                        <engine:VisualElement name="Icon" style="flex-grow: 1; -unity-text-align: middle-center; justify-content: center; background-image: resource(&apos;triagnle&apos;); width: 5%; height: 30%; top: 0; align-self: center;" />
+                        <engine:Label text="CORRUPCION" name="Cor2" style="-unity-text-align: middle-left; -unity-font-style: bold; width: 77px; -unity-font-definition: resource(&apos;Jura/Jura-SemiBold&apos;); font-size: 11px;" />
+                        <Corrupcion valor="4" style="flex-direction: row; width: auto; height: auto; top: auto; align-items: flex-end; align-self: center; font-size: 11px;" />
+                    </engine:VisualElement>
+                </engine:VisualElement>
+            </engine:VisualElement>
+            <engine:VisualElement name="Inventario" style="flex-grow: 1; position: absolute; width: 100%; height: 100%; display: none; flex-direction: row;">
+                <engine:VisualElement name="Izq" style="flex-grow: 1; background-image: none;">
+                    <engine:Label text="OBJETOS DISPONIBLES" name="Label" style="-unity-font-definition: resource(&apos;Jura/Jura-SemiBold&apos;); -unity-font-style: bold; color: rgb(255, 255, 255);" />
+                    <engine:VisualElement name="Objetos" style="flex-grow: 1; width: 100%; flex-direction: row; flex-wrap: wrap;">
+                        <engine:VisualElement name="Slot1" class="obj" style="flex-grow: 1; width: 50%; height: 25%; flex-direction: row;">
+                            <engine:VisualElement name="lock" class="lock" style="flex-grow: 1;" />
+                            <engine:VisualElement name="item" style="flex-grow: 1; background-image: resource(&apos;item1&apos;); scale: 0.7 0.7;" />
+                        </engine:VisualElement>
+                        <engine:VisualElement name="Slot2" class="obj" style="flex-grow: 1; flex-direction: row;">
+                            <engine:VisualElement name="lock" class="lock" style="flex-grow: 1;" />
+                            <engine:VisualElement name="item" style="flex-grow: 1; background-image: resource(&apos;item2&apos;); scale: 0.8 0.8;" />
+                        </engine:VisualElement>
+                        <engine:VisualElement name="Slot3" class="obj" style="flex-grow: 1; flex-direction: row;">
+                            <engine:VisualElement name="lock" class="lock" style="flex-grow: 1;" />
+                            <engine:VisualElement name="item" style="flex-grow: 1; background-image: resource(&apos;item3&apos;); scale: 0.8 0.8;" />
+                        </engine:VisualElement>
+                        <engine:VisualElement name="Slot4" class="obj" style="flex-grow: 1; flex-direction: row;">
+                            <engine:VisualElement name="lock" class="lock" style="flex-grow: 1;" />
+                            <engine:VisualElement name="item" style="flex-grow: 1; background-image: resource(&apos;item4&apos;); scale: 0.8 0.8;" />
+                        </engine:VisualElement>
+                        <engine:VisualElement name="Slot5" class="obj" style="flex-grow: 1; flex-direction: row; width: 50%; position: absolute; translate: 0 200%;">
+                            <engine:VisualElement name="lock" class="lock" style="flex-grow: 1;" />
+                            <engine:VisualElement name="item" style="flex-grow: 1; background-image: resource(&apos;item5&apos;); scale: 0.8 0.8;" />
+                        </engine:VisualElement>
+                    </engine:VisualElement>
+                </engine:VisualElement>
+                <engine:VisualElement name="Dcha" style="flex-grow: 1;">
+                    <engine:Label text="OBJETOS A LLEVAR A LA MISÓN" style="-unity-font-definition: resource(&apos;Jura/Jura-SemiBold&apos;); -unity-font-style: bold; color: rgb(255, 255, 255); -unity-text-align: upper-center;" />
+                    <engine:VisualElement name="Llevar" style="flex-grow: 1; width: 100%; flex-direction: row; flex-wrap: wrap;">
+                        <engine:VisualElement name="Take1" class="obj" style="flex-grow: 1; width: 50%; height: 25%; flex-direction: row;">
+                            <engine:VisualElement name="lock" style="flex-grow: 1;" />
+                            <engine:VisualElement name="item" style="flex-grow: 1; background-image: none; scale: 0.7 0.7;" />
+                        </engine:VisualElement>
+                        <engine:VisualElement name="Take2" class="obj" style="flex-grow: 1; width: 50%; height: 25%; flex-direction: row;">
+                            <engine:VisualElement name="lock" style="flex-grow: 1;" />
+                            <engine:VisualElement name="item" style="flex-grow: 1; background-image: none; scale: 0.7 0.7;" />
+                        </engine:VisualElement>
+                        <engine:VisualElement name="Take3" class="obj" style="flex-grow: 1; width: 50%; height: 25%; flex-direction: row; position: absolute; translate: 0 100%;">
+                            <engine:VisualElement name="lock" style="flex-grow: 1;" />
+                            <engine:VisualElement name="item" style="flex-grow: 1; background-image: none; scale: 0.7 0.7;" />
+                        </engine:VisualElement>
+                    </engine:VisualElement>
+                </engine:VisualElement>
+            </engine:VisualElement>
+            <engine:VisualElement name="Notas" style="flex-grow: 1; position: absolute; width: 100%; height: 100%; display: none; flex-direction: row;">
+                <engine:VisualElement name="Izq" style="flex-grow: 1; background-image: none; width: 60%; height: 100%;">
+                    <engine:VisualElement name="Cabeza" style="flex-grow: 1;">
+                        <engine:VisualElement name="Nota" style="flex-grow: 1; width: 62%; height: 10px; padding-top: 6px; padding-right: 6px; padding-bottom: 6px; padding-left: 6px; margin-top: 6px; margin-right: 6px; margin-bottom: 6px; margin-left: 6px; background-image: resource(&apos;unselect&apos;);">
+                            <engine:Label text="NOTA ACTUAL" style="-unity-text-align: middle-left; height: 100%; -unity-font-definition: resource(&apos;Jura/Jura-SemiBold&apos;); -unity-font-style: bold;" />
+                        </engine:VisualElement>
+                    </engine:VisualElement>
+                    <engine:VisualElement name="Texto" style="flex-grow: 1; width: 100%; height: 80%; background-image: none; flex-direction: row;">
+                        <engine:TextField placeholder-text="Informe Androide:" hide-placeholder-on-focus="true" multiline="true" name="TextField" is-delayed="true" select-all-on-mouse-up="false" vertical-scroller-visibility="AlwaysVisible" style="width: 100%; height: 80%; -unity-text-align: upper-left; white-space: normal; background-image: none; flex-wrap: wrap;" />
+                    </engine:VisualElement>
+                </engine:VisualElement>
+                <engine:VisualElement name="Dcha" style="flex-grow: 1; width: 40%; height: 100%;">
+                    <engine:VisualElement name="Top" style="flex-grow: 1;">
+                        <engine:VisualElement name="Guardar" class="icon" style="flex-grow: 1; margin-top: 5px; margin-right: 5px; margin-bottom: 5px; margin-left: 5px; width: 72%; height: 22%; position: absolute; justify-content: flex-end; align-self: center; align-items: flex-end; translate: 0 116px;">
+                            <engine:Label text="GUARDAR NOTA" style="width: 97%; align-items: center; align-self: center; height: 100%; justify-content: space-between; -unity-text-align: middle-left;" />
+                        </engine:VisualElement>
+                    </engine:VisualElement>
+                    <engine:VisualElement name="Down" style="flex-grow: 1;">
+                        <engine:VisualElement name="Restart" class="icon" style="flex-grow: 1; margin-top: 5px; margin-right: 5px; margin-bottom: 5px; margin-left: 5px; width: 72%; height: 22%; position: absolute; justify-content: flex-end; align-self: center; align-items: flex-end; translate: 0 26px; scale: 1 1;">
+                            <engine:Label text="REESTABLECER NOTA" style="width: 97%; height: 100%; -unity-text-align: middle-left;" />
+                        </engine:VisualElement>
+                    </engine:VisualElement>
+                </engine:VisualElement>
+            </engine:VisualElement>
+            <engine:VisualElement name="Decisiones" style="flex-grow: 1; position: absolute; width: 100%; height: 100%; display: none;">
+                <engine:ScrollView name="MapaScroll" style="width: 100%; height: 100%; background-image: none; scale: 1 1; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; position: absolute; flex-direction: column; top: 0; left: 1px;">
+                    <engine:VisualElement name="Mapa" style="flex-grow: 1; background-image: resource(&apos;mapa&apos;); height: 500px; width: 159%; scale: 1 1; translate: 0 0; position: relative; top: 0; left: 0; flex-direction: row;" />
+                </engine:ScrollView>
+            </engine:VisualElement>
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>
